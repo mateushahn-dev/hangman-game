@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <main>
+        <h1>Jogo da Forca</h1>
+        <img class="img" src="" alt="forca">
+    </main>
+    <div class="letters"></div>
+    <div class="play">
+        <label for="letter">Tente uma Letra: </label>
+        <input maxlength="1" id="letter" type="text">
+        <button type="button" class="kick">Chutar!</button>
+    </div>
+    <div class="kicked">
+        <h3>Letras Chutadas: </h3>
+        <p id="letters-kicked"></p>
+    </div>
+    <div class="result">
+        <p id="wl"></p>
+        <button type="button" id="btn-play">Jogar Denovo!</button>
+    </div>
+    <script src="/app/index.js" charset="utf-8" type="module"></script>
+</body>
+</html>

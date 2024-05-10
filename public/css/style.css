@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+main h1 {
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+}
+
+.letters {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.play {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.play label {
+    font-size: 1.1rem;
+}
+
+.play input {
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: 1px solid #808080;
+}
+
+.play button {
+    height: 30px;
+    padding: 5px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.kicked h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.kicked p {
+    margin: 5px;
+    font-size: 1.6rem;
+}
+
+.all-letters {
+    display: none;
+}
+
+
+
+.result {
+    display: none;
+}
+
+.result p {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.result button {
+    height: 30px;
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #19bd04;
+    color: white;
+}
+
+@media (max-width: 420px) {
+    .letters {
+        font-size: 2rem;
+    }
+}
